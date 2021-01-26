@@ -167,7 +167,7 @@ body {
     list-style: none;
     width: 20px;
     height: 20px;
-    background: rgba(160, 126, 216, 0.35);
+    background: rgba(60, 117, 192, 0.35);
     -webkit-animation: animate 25s linear infinite;
             animation: animate 25s linear infinite;
     bottom: -150px;
@@ -344,6 +344,7 @@ body {
     top: 0;
     margin: auto;
     z-index: -1;
+    background-color: #3c75c0;
   }
   @-webkit-keyframes move_wave {
     0% {
@@ -379,8 +380,6 @@ body {
     overflow: hidden;
     height: 100%;
     bottom: -1px;
-    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(20%, #86377b), color-stop(80%, #eeeeee));
-    background-image: linear-gradient(to top, #86377b 20%, #eeeeee 80%);
   }
   .section2 .wave-container .wave-background .wave-img {
     position: absolute;
@@ -692,6 +691,7 @@ body {
     top: 0;
     margin: auto;
     z-index: -1;
+    background-color: #3c75c0;
   }
   @keyframes move_wave {
     0% {
@@ -713,7 +713,7 @@ body {
     overflow: hidden;
     height: 100%;
     bottom: -1px;
-    background-color: #86377b;
+    background-color: #3c75c0;
   }
   .about-section3 .wave-container .wave-background .wave-img {
     position: absolute;
@@ -909,7 +909,7 @@ body {
     list-style: none;
     width: 20px;
     height: 20px;
-    background: rgba(160, 126, 216, 0.35);
+    background: rgba(60, 117, 192, 0.35);
     -webkit-animation: animate 25s linear infinite;
             animation: animate 25s linear infinite;
     bottom: -150px;
@@ -1094,6 +1094,7 @@ body {
     top: 0;
     margin: auto;
     z-index: -1;
+    background-color: #3c75c0;
   }
   @-webkit-keyframes move_wave {
     0% {
@@ -1129,8 +1130,6 @@ body {
     overflow: hidden;
     height: 100%;
     bottom: -1px;
-    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(20%, #86377b), color-stop(80%, #eeeeee));
-    background-image: linear-gradient(to top, #86377b 20%, #eeeeee 80%);
   }
   .section2 .wave-container .wave-background .wave-img {
     position: absolute;
@@ -1450,6 +1449,7 @@ body {
     top: 0;
     margin: auto;
     z-index: -1;
+    background-color: #3c75c0;
   }
   @keyframes move_wave {
     0% {
@@ -1471,7 +1471,7 @@ body {
     overflow: hidden;
     height: 100%;
     bottom: -1px;
-    background-color: #86377b;
+    background-color: #3c75c0;
   }
   .about-section3 .wave-container .wave-background .wave-img {
     position: absolute;
@@ -1558,9 +1558,14 @@ body {
     font-size: 4rem;
     font-family: "Josefin Slab", serif;
     font-weight: 600;
+    color: #dfdfdf;
   }
   .section2 .project-container .project .project-description .project-role {
     display: none;
+    color: #dfdfdf;
+  }
+  .section2 .wave-container {
+    background-color: #3c75c0;
   }
   .section2 .wave-container .wave-background {
     width: 100%;
@@ -1826,7 +1831,7 @@ body {
     overflow: hidden;
     height: 100%;
     bottom: -1px;
-    background-color: #86377b;
+    background-color: #3c75c0;
   }
   .about-section3 .wave-container .wave-background .wave-img {
     position: absolute;

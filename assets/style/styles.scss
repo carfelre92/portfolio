@@ -179,7 +179,7 @@ body{
                     list-style: none;
                     width: 20px;
                     height: 20px;
-                    background:  rgba(160, 126, 216, 0.35);
+                    background:  rgba(60, 117, 192, 0.35);
                     animation: animate 25s linear infinite;
                     bottom: -150px;
                     
@@ -284,8 +284,7 @@ body{
     }
     
     .section2{
-        //border:solid yellow thin;
-        //height:100vh;
+
         position:relative;
         overflow:hidden;
 
@@ -300,7 +299,6 @@ body{
                 position: relative;
                 margin:7rem 0;
                 width:17.9rem;
-                //overflow:hidden;
 
                 .image-container{
                     width:17.9rem;
@@ -352,6 +350,8 @@ body{
             margin: auto;
             z-index:-1;
 
+            background-color:#3c75c0;
+
             @keyframes move_wave {
                 0% {
                     transform: translateX(0) translateZ(0) scaleY(1)
@@ -370,7 +370,7 @@ body{
                 overflow: hidden;
                 height: 100%;
                 bottom: -1px;
-                background-image: linear-gradient(to top, #86377b 20%, rgb(238, 238, 238) 80%);
+                //background-image: linear-gradient(to top, #3c75c0 20%, rgb(238, 238, 238) 80%);
                 
                 .wave-img {
                     position: absolute;
@@ -755,6 +755,7 @@ body{
             top: 0;
             margin: auto;
             z-index:-1;
+            background-color:#3c75c0;
 
             @keyframes move_wave {
                 0% {
@@ -774,8 +775,7 @@ body{
                 overflow: hidden;
                 height: 100%;
                 bottom: -1px;
-                //background-image: linear-gradient(to top, #86377b 20%, rgb(238, 238, 238) 80%);
-                background-color: #86377b;
+                background-color: #3c75c0;
                 .wave-img {
                     position: absolute;
                     left: 0;
@@ -977,7 +977,7 @@ body{
                     list-style: none;
                     width: 20px;
                     height: 20px;
-                    background:  rgba(160, 126, 216, 0.35);
+                    background:  rgba(60, 117, 192, 0.35);
                     animation: animate 25s linear infinite;
                     bottom: -150px;
                     
@@ -1154,6 +1154,7 @@ body{
             top: 0;
             margin: auto;
             z-index:-1;
+            background-color:#3c75c0;
 
             @keyframes move_wave {
                 0% {
@@ -1173,7 +1174,7 @@ body{
                 overflow: hidden;
                 height: 100%;
                 bottom: -1px;
-                background-image: linear-gradient(to top, #86377b 20%, rgb(238, 238, 238) 80%);
+                //background-image: linear-gradient(to top, #3c75c0 20%, rgb(238, 238, 238) 80%);
                 
                 .wave-img {
                     position: absolute;
@@ -1564,6 +1565,7 @@ body{
                 top: 0;
                 margin: auto;
                 z-index:-1;
+                background-color:#3c75c0;
     
                 @keyframes move_wave {
                     0% {
@@ -1583,8 +1585,8 @@ body{
                     overflow: hidden;
                     height: 100%;
                     bottom: -1px;
-                    //background-image: linear-gradient(to top, #86377b 20%, rgb(238, 238, 238) 80%);
-                    background-color: #86377b;
+                    //background-image: linear-gradient(to top, #3c75c0 20%, rgb(238, 238, 238) 80%);
+                    background-color: #3c75c0;
                     .wave-img {
                         position: absolute;
                         left: 0;
@@ -1697,17 +1699,20 @@ body{
                             font-size:4rem;
                             font-family: $main-font;
                             font-weight: 600;
+                            color:rgb(223, 223, 223);
                         }
                     }
 
                     .project-role{
                         display:none;
+                        color:rgb(223, 223, 223);
                     }
                 }
             }
         }
     
         .wave-container {
+            background-color:#3c75c0;
 
             .wave-background {
                 width: 100%;
@@ -2005,8 +2010,7 @@ body{
                         overflow: hidden;
                         height: 100%;
                         bottom: -1px;
-                        //background-image: linear-gradient(to top, #86377b 20%, rgb(238, 238, 238) 80%);
-                        background-color: #86377b;
+                        background-color: #3c75c0;
                         .wave-img {
                             position: absolute;
                             left: 0;
@@ -2107,7 +2111,7 @@ body{
         .shadow-bot{
             -webkit-box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.26); 
             box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.26);
-            transition: all 0.2s ease-in;;
+            transition: all 0.2s ease-in;
         }
 
         .hide{
