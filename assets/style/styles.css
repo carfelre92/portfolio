@@ -574,19 +574,6 @@ body {
   .about-section1 .area .description-container {
     padding: 0 1.5rem;
   }
-  .about-section1 .area .description-container .round-image {
-    height: 0;
-    border: 10px white solid;
-    position: relative;
-    margin: 3rem auto 0 auto;
-    width: 50%;
-    padding-top: 50%;
-    /* 1:1 Aspect Ratio */
-    border-radius: 10rem;
-    background-image: url("https://i.pinimg.com/originals/af/8d/63/af8d63a477078732b79ff9d9fc60873f.jpg");
-    background-position: 70% 100%;
-    background-size: cover;
-  }
   .about-section1 .area .description-container .description h4 {
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
@@ -1326,21 +1313,6 @@ body {
     margin: 0 auto;
     max-width: 30rem;
   }
-  .about-section1 .area .description-container .circle-image .round-image {
-    height: 0;
-    border: 10px white solid;
-    position: relative;
-    margin: 3rem auto 0 auto;
-    width: 50%;
-    padding-top: 50%;
-    /* 1:1 Aspect Ratio */
-    border-radius: 100rem;
-    background: url("/assets/img/pho.jpg");
-    background-position: 70% 100%;
-    background-size: cover;
-    -webkit-box-shadow: 2px 3px 0px 5px rgba(0, 0, 0, 0.23);
-    box-shadow: 2px 3px 0px 5px rgba(0, 0, 0, 0.23);
-  }
   .about-section1 .area .description-container .description h4 {
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
@@ -1638,21 +1610,6 @@ body {
     position: relative;
     margin: 0 auto;
     max-width: 30rem;
-  }
-  .about-section1 .area .description-container .circle-image .round-image {
-    height: 0;
-    border: 10px white solid;
-    position: relative;
-    margin: 3rem auto 0 auto;
-    width: 50%;
-    padding-top: 50%;
-    /* 1:1 Aspect Ratio */
-    border-radius: 100rem;
-    background: url("/assets/img/pho.jpg");
-    background-position: 70% 100%;
-    background-size: cover;
-    -webkit-box-shadow: 2px 3px 0px 5px rgba(0, 0, 0, 0.23);
-    box-shadow: 2px 3px 0px 5px rgba(0, 0, 0, 0.23);
   }
   .about-section1 .area .description-container .description h4 {
     font-family: "Montserrat", sans-serif;
@@ -2074,21 +2031,6 @@ body {
   .about-section1 .area .description-container .circle-image {
     position: relative;
     width: 35rem;
-  }
-  .about-section1 .area .description-container .circle-image .round-image {
-    height: 0;
-    border: 10px white solid;
-    position: relative;
-    margin: 3rem auto 0 auto;
-    width: 50%;
-    padding-top: 50%;
-    /* 1:1 Aspect Ratio */
-    border-radius: 100rem;
-    background: url("/assets/img/pho.jpg");
-    background-position: 70% 100%;
-    background-size: cover;
-    -webkit-box-shadow: 2px 3px 0px 5px rgba(0, 0, 0, 0.23);
-    box-shadow: 2px 3px 0px 5px rgba(0, 0, 0, 0.23);
   }
   .about-section1 .area .description-container .description {
     width: 40rem;
