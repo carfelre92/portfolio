@@ -583,6 +583,7 @@ body {
     padding-top: 50%;
     /* 1:1 Aspect Ratio */
     border-radius: 10rem;
+    background: url("/assets/img/pho.jpg");
     background-position: 70% 100%;
     background-size: cover;
     -webkit-box-shadow: 2px 3px 0px 5px rgba(0, 0, 0, 0.23);
@@ -1336,6 +1337,7 @@ body {
     padding-top: 50%;
     /* 1:1 Aspect Ratio */
     border-radius: 100rem;
+    background: url("/assets/img/pho.jpg");
     background-position: 70% 100%;
     background-size: cover;
     -webkit-box-shadow: 2px 3px 0px 5px rgba(0, 0, 0, 0.23);
@@ -1648,6 +1650,7 @@ body {
     padding-top: 50%;
     /* 1:1 Aspect Ratio */
     border-radius: 100rem;
+    background: url("/assets/img/pho.jpg");
     background-position: 70% 100%;
     background-size: cover;
     -webkit-box-shadow: 2px 3px 0px 5px rgba(0, 0, 0, 0.23);
@@ -2083,6 +2086,7 @@ body {
     padding-top: 50%;
     /* 1:1 Aspect Ratio */
     border-radius: 100rem;
+    background: url("/assets/img/pho.jpg");
     background-position: 70% 100%;
     background-size: cover;
     -webkit-box-shadow: 2px 3px 0px 5px rgba(0, 0, 0, 0.23);
